@@ -1,4 +1,4 @@
-# Creating External LoadBalancer
+# Creating External LoadBalancers
 resource "aws_lb" "external-alb" {
   name               = "External LB"
   internal           = false

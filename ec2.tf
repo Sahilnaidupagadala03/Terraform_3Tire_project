@@ -14,7 +14,7 @@ resource "aws_instance" "demoinstance" {
   }
 }
  
-# Creating 2nd EC2 instance in Public Subnet Internet
+# Creating 2nd EC2 instance in Public Subnetting
 resource "aws_instance" "demoinstance1" {
   ami                         = "ami-087c17d1fe0178315"
   instance_type               = "t2.micro"
